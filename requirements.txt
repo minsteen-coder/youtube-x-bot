@@ -1,0 +1,4 @@
+feedparser
+tweepy
+google-generativeai
+youtube-transcript-api
