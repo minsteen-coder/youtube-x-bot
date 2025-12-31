@@ -64,7 +64,7 @@ def summarize_with_gemini(text, video_title):
         raise ValueError("GEMINI_API_KEY is not set.")
     
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-flash')
 
     prompt = f"""
     당신은 인기 있는 소셜 미디어 인플루언서입니다. 
